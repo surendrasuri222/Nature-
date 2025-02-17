@@ -1,0 +1,67 @@
+<!-- <div class="nav">
+  <a routerLink="/home">HOME</a>
+  <div class="dropdown">
+    <button class="dropbtn">PRODUCTS</button>
+    <div class="dropdown-content">
+      <a href="#">Bonsai</a>
+      <a href="#">Flower saplings</a>
+      <a href="#"> Fruit saplings </a>
+      <a href="#"> Organic manure </a>
+      <a href="#"> Gardening tools </a>
+      <a href="#"> Vegetable saplings </a>
+      <a href="#"> Fruit seeds </a>
+      <a href="#"> Vegetable seeds </a>
+      <a href="#"> Special Offers </a>
+    </div>
+  </div>
+  <a routerLink="/aboutus">ABOUT US</a>
+  <a routerLink="/contactus">CONTACT US</a>
+  <a routerLink="/feedback">FEEDBACK</a>
+</div> -->
+
+<!-- <div class="nav">
+  <a routerLink="/home">HOME</a>
+  <div class="dropdown">
+    <button class="dropbtn" (click)="toggleDropdown()">PRODUCTS</button>
+    <div class="dropdown-content" [class.show]="isDropdownOpen">
+      <a href="#">Bonsai</a>
+      <a href="#">Flower saplings</a>
+      <a href="#">Fruit saplings</a>
+      <a href="#">Organic manure</a>
+      <a href="#">Gardening tools</a>
+      <a href="#">Vegetable saplings</a>
+      <a href="#">Fruit seeds</a>
+      <a href="#">Vegetable seeds</a>
+      <a href="#">Special Offers</a>
+    </div>
+  </div>
+  <a routerLink="/aboutus">ABOUT US</a>
+  <a routerLink="/contactus">CONTACT US</a>
+  <a routerLink="/feedback">FEEDBACK</a>
+</div> -->
+<div class="nav">
+  <a routerLink="/home">HOME</a>
+
+  <div
+    class="dropdown"
+    (mouseenter)="toggleDropdown(true)"
+    (mouseleave)="toggleDropdown(false)"
+  >
+    <button class="dropbtn">PRODUCTS</button>
+    <div class="dropdown-content" [ngClass]="{ show: dropdownOpen }">
+      <a href="#">Bonsai</a>
+      <a href="#">Flower saplings</a>
+      <a href="#">Fruit saplings</a>
+      <a href="#">Organic manure</a>
+      <a href="#">Gardening tools</a>
+      <a href="#">Vegetable saplings</a>
+      <a href="#">Fruit seeds</a>
+      <a href="#">Vegetable seeds</a>
+      <a href="#">Special Offers</a>
+    </div>
+  </div>
+
+  <a routerLink="/aboutus">ABOUT US</a>
+  <a routerLink="/contactus">CONTACT US</a>
+  <a routerLink="/feedback">FEEDBACK</a>
+</div>

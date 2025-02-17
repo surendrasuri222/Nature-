@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Apple Bonsai",
+    "image": "https://storage.googleapis.com/a1aa/image/qRHGRf0qBkR7KC3vXMsqY128e6dPf5MFg4ToULiRjfB6twLPB.jpg"
+  },
+  {
+    "name": "Mango Bonsai",
+    "image": "https://storage.googleapis.com/a1aa/image/GAFZVNOKyex5UiYFoLwjmPMEJe5g0f4Zb0EBevMjrXZcuwLPB.jpg"
+  },
+  {
+    "name": "Grape Bonsai",
+    "image": "https://storage.googleapis.com/a1aa/image/EBwl4QwEDT6jKFkeOSWXMYGC40ap8ec7H9c2zajgucKpL8yTA.jpg"
+  },
+  {
+    "name": "Orange Bonsai",
+    "image": "https://storage.googleapis.com/a1aa/image/UflNW9XSXetnpUzQgMJ8fPYdV2EduY5rRnkpu2JWP7VDX4lnA.jpg"
+  },
+  {
+    "name": "BitterGuard Plant",
+    "image": "https://storage.googleapis.com/a1aa/image/feAyce9YOdKJaoXEG1FSyGuGTGYIlkRowvbfpGerGsQhchXeE.jpg"
+  },
+  {
+    "name": "Pumpkin Plant",
+    "image": "https://storage.googleapis.com/a1aa/image/M1QgD87rwfwGFKoyjZlz7OfputCSg2jbWqu2fOef1NO4bhXeE.jpg"
+  },
+  {
+    "name": "Ladies Finger Plant",
+    "image": "assets/images/ladies finger.jpg"
+  },
+  {
+    "name": "Chilli Plant",
+    "image": "assets/images/chilli.jfif"
+  }
+]

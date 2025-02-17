@@ -1,0 +1,11 @@
+<div class="header">
+  <img height="100" src="assets/images/image.png" width="100" />
+  <h1>Nature's Paradise</h1>
+  <p>Make your Home a Greener Place !!</p>
+  <button class="btn btn-primary" *ngIf="!isLoggedIn" routerLink="/login">
+    Login
+  </button>
+  <button class="btn btn-danger" *ngIf="isLoggedIn" (click)="logout()">
+    Logout
+  </button>
+</div>

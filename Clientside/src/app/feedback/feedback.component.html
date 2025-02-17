@@ -1,0 +1,45 @@
+<div class="feedback-container">
+  <h2>🌱 We Value Your Feedback! 🌿</h2>
+  <p>Help us improve by sharing your thoughts.</p>
+
+  <form *ngIf="!submitted" (ngSubmit)="submitFeedback()">
+    <label for="name">Name:</label>
+    <input
+      type="text"
+      id="name"
+      [(ngModel)]="name"
+      name="name"
+      placeholder="Your Name (Optional)"
+    />
+
+    <label for="email">Email:</label>
+    <input
+      type="email"
+      id="email"
+      [(ngModel)]="email"
+      name="email"
+      placeholder="Your Email (Optional)"
+    />
+
+    <label for="rating">Rate Us:</label>
+    <select id="rating" [(ngModel)]="rating" name="rating">
+      <option *ngFor="let r of [1, 2, 3, 4, 5]" [value]="r">{{ r }} ★</option>
+    </select>
+
+    <label for="comments">Your Feedback:</label>
+    <textarea
+      id="comments"
+      [(ngModel)]="comments"
+      name="comments"
+      placeholder="Write your feedback here..."
+      required
+    ></textarea>
+
+    <button type="submit">Submit Feedback</button>
+  </form>
+
+  <div *ngIf="submitted" class="thank-you">
+    <p>✅ Thanks for your feedback!</p>
+    <button (click)="resetForm()">Submit Another</button>
+  </div>
+</div>
